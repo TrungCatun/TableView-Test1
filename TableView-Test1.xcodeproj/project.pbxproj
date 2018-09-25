@@ -12,6 +12,7 @@
 		87A4CEE720DC85CB009EC67A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A4CEE520DC85CB009EC67A /* Main.storyboard */; };
 		87A4CEE920DC85CB009EC67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A4CEE820DC85CB009EC67A /* Assets.xcassets */; };
 		87A4CEEC20DC85CB009EC67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A4CEEA20DC85CB009EC67A /* LaunchScreen.storyboard */; };
+		87A4CEF420DC85F7009EC67A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4CEF320DC85F7009EC67A /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		87A4CEE820DC85CB009EC67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87A4CEEB20DC85CB009EC67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87A4CEED20DC85CB009EC67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A4CEF320DC85F7009EC67A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				87A4CEE120DC85CB009EC67A /* AppDelegate.swift */,
 				87A4CEE320DC85CB009EC67A /* ViewController.swift */,
+				87A4CEF320DC85F7009EC67A /* TableViewController.swift */,
 				87A4CEE520DC85CB009EC67A /* Main.storyboard */,
 				87A4CEE820DC85CB009EC67A /* Assets.xcassets */,
 				87A4CEEA20DC85CB009EC67A /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87A4CEE420DC85CB009EC67A /* ViewController.swift in Sources */,
+				87A4CEF420DC85F7009EC67A /* TableViewController.swift in Sources */,
 				87A4CEE220DC85CB009EC67A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
